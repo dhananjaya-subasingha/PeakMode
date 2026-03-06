@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peakmode Calculators</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href ="health_calculator.css">
+</head>
+
+<body>
+    <div class="grid-container">
+        <div class="header">
+            <div class="mini-grid">
+                <div class="logo">
+                    <img src="./images/logo1.png" width="150px">
+                </div>
+                <div class="quote">
+                    <p style="text-align : right">"Only those who dare to fail greately can ever achieve greatly!"</p>
+                </div>
+
+                <ul class="navbar">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="health_calculator.html">Health Calculators</a></li>
+                    <li><a href="#">Workout Plans</a></li>
+                    <li><a href="#">Activity Tracker</a></li>
+                    <li><a href="#">About Us</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="content content2">
+            <div class = "form-container">
+                <h2>Body Fat Calculator</h2>
+
+                <form id = "bodyfat">
+                    <label>
+                        Male
+                        <input type= "radio" name = "gender" value = "male" required>
+                        Female
+                        <input type= "radio" name = "gender" value = "female">
+                    </label><br>
+                    <!-- <label>Age </label><input form = "number" id = "Age" placeholder="20"><br> -->
+                    <!-- <label>Weight </label><input form = "number" id = "Weight" placeholder="80KG"><br> -->
+                    <label>Height </label><input form = "number" id = "Height" placeholder="180cm"><br>
+                    <label>Neck </label><input form = "number" id = "Neck" placeholder="30cm"><br>
+                    <label>Waist </label><input form = "number" id = "Waist" placeholder="90cm"><br>
+                    <label>Hip</label><input type="number" id="Hip" placeholder="95cm if you're a female"><br>
+                    <button type = "submit">submit</button>
+                    <p id = "result"></p>
+                </form>
+            </div>    
+        </div>
+        <div class="footer"> 
+            <img src = "./images/footer_logo.png" width="200px">
+        </div>
+    </div>
+    <script src = "health_calculator.js"></script>
+</body>
+
+</html>
