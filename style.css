@@ -1,5 +1,9 @@
-@media (max-width: 768px) {
+/* --- Your existing desktop styles stay here --- */
 
+/* Existing desktop styles ... */
+
+/* --- Add this at the end of your CSS file --- */
+@media (max-width: 768px) {
     .mini-grid {
         grid-template-areas:
             "logo"
@@ -9,26 +13,37 @@
         text-align: center;
     }
 
-    .navbar {
+    .quote {
+        text-align: center;
+        font-size: 16px;
+        padding: 0 10px;
+    }
+
+    .custom-navbar {
         flex-direction: column;
         align-items: center;
+        gap: 5px;
     }
 
-    .slider img {
-        height: 300px;
+    .custom-navbar li a {
+        padding: 8px 12px;
+        font-size: 14px;
     }
 
-    .logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+    
 
-.logo img {
-    width: 120px;   /* smaller for mobile */
-    height: auto;
-}
+    .text {
+        position: static;
+        margin-top: 10px;
+        font-size: 16px;
+        text-align: center;
+        padding: 0 10px;
+    }
 
+    .footer img {
+        width: 150px;
+        height: auto;
+    }
 }
 
 .grid-container{
@@ -136,7 +151,7 @@
     position: relative;
 }
 
-.navbar{
+.custom-navbar{
     grid-area: navbar;
     display:flex;
     justify-content:center;
@@ -145,8 +160,7 @@
     padding: 0;
     gap:10px;
 }
-
-.navbar li a{
+.custom-navbar li a{
     display: block;
     text-decoration: none;
     padding:12px 20px;
@@ -156,8 +170,20 @@
     transition: background 0.3s;
 }
 
-.navbar li a:hover{
+.custom-navbar li a:hover{
     background-color:darkred;
     box-shadow: 0 0 15px rgba(255,0,0,1);
 }
 
+.input-styles{
+    background: rgba(255, 255, 255, 0.08) !important;
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+    color: white !important;
+    border-radius: 6px;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
