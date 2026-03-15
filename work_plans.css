@@ -203,6 +203,8 @@
     /* Routine card smaller than desktop (90% width) */
     .routine-card {
         width: 90%;
+        height: auto;
+        min-height: 220px;
     }
 
     /* Card front/back images and text spacing */
@@ -222,15 +224,6 @@
     /* Optional: reduce padding/margin for smaller screens */
     .content2 {
         padding: 0 10px;
-    }
-
-    .routine-card {
-        width: 90%;
-        /* already have this */
-        height: auto;
-        /* let height grow with content */
-        min-height: 220px;
-        /* optional: keeps minimum size */
     }
 
     .card-inner {
