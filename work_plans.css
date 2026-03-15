@@ -201,7 +201,7 @@
     /* Routine cards: keep flip, set enough height */
     .routine-card {
         width: 90%;
-        min-height: 400px; /* enough for your longest content */
+        min-height: 500px; /* enough for your longest content */
         cursor: pointer;
         margin: 10px;
         perspective: 1000px; /* keep 3D perspective */
@@ -241,7 +241,7 @@
 
     .card-front img,
     .card-back img {
-        width: 100%;
+        width: 95%;
         height: auto;
         margin-bottom: 10px;
         border-radius: 8px;
