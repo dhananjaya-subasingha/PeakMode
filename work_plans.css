@@ -205,25 +205,36 @@
         height: auto;
         min-height: 220px;
     }
+
     .card-inner {
         height: auto;
     }
+
     .card-front,
     .card-back {
+        position: relative;
+        width: 100%;
         height: auto;
         flex-direction: column;
         align-items: flex-start;
         padding: 10px;
+        backface-visibility: visible;
     }
+
     .card-front img,
     .card-back img {
         width: 100%;
         height: auto;
         margin-bottom: 10px;
     }
+
     .card-front p,
     .card-back ol {
         font-size: 14px;
         line-height: 1.4;
     }
+
+    .routine-card.flip .card-inner {
+    transform: none;
+}
 }
