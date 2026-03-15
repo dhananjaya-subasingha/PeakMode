@@ -200,34 +200,30 @@
         /* center the cards */
     }
 
-    /* Routine card smaller than desktop (90% width) */
     .routine-card {
         width: 90%;
         height: auto;
         min-height: 220px;
     }
-
-    /* Card front/back images and text spacing */
+    .card-inner {
+        height: auto;
+    }
+    .card-front,
+    .card-back {
+        height: auto;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+    }
     .card-front img,
     .card-back img {
         width: 100%;
         height: auto;
+        margin-bottom: 10px;
     }
-
     .card-front p,
-    .card-back p,
     .card-back ol {
         font-size: 14px;
         line-height: 1.4;
-    }
-
-    /* Optional: reduce padding/margin for smaller screens */
-    .content2 {
-        padding: 0 10px;
-    }
-
-    .card-inner {
-        height: auto;
-        /* let it grow with content */
     }
 }
