@@ -223,7 +223,7 @@
 
     .card-front img,
     .card-back img {
-        width: 100%;
+        width: 90%;
         height: auto;
         margin-bottom: 10px;
     }
@@ -234,7 +234,4 @@
         line-height: 1.4;
     }
 
-    .routine-card.flip .card-inner {
-    transform: none;
-}
 }
