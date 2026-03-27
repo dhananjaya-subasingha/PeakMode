@@ -1,8 +1,8 @@
 ﻿# PeakMode_frontEnd
 
- # PeakMode Front-End 🌐💪
+ # PeakMode Front-End 
 
-## 📌 Project Overview
+##  Project Overview
 
 PeakMode is an interactive fitness web application designed to help users track their health, explore workout plans, and stay motivated.
 
@@ -10,7 +10,7 @@ This repository contains the **front-end (static website)** version of the proje
 
 ---
 
-## 🚀 Live Demo
+##  Live Demo
 
 Access the live website here:
 
@@ -20,7 +20,7 @@ https://dhananjaya-subasingha.github.io/PeakMode/
 
 ---
 
-## 🎯 Features
+##  Features
 
 * Modern responsive UI
 * Homepage with image slider
@@ -31,7 +31,7 @@ https://dhananjaya-subasingha.github.io/PeakMode/
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 * HTML5
 * CSS3
@@ -40,7 +40,7 @@ https://dhananjaya-subasingha.github.io/PeakMode/
 
 ---
 
-## ▶️ How to Run Locally
+##  How to Run Locally
 
 ### Option 1: Open directly
 
@@ -62,7 +62,7 @@ index.html
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 PeakMode/
@@ -78,7 +78,7 @@ PeakMode/
 
 ---
 
-## ⚠️ Important Notes
+##  Important Notes
 
 * This version is **front-end only** (no database, no PHP).
 * Some features (login, activity saving, contact form) require backend integration.
@@ -86,7 +86,7 @@ PeakMode/
 
 ---
 
-## 🔗 Related Repository
+##  Related Repository
 
 Backend (PHP + MySQL):
 
@@ -96,7 +96,7 @@ https://github.com/dhananjaya-subasingha/PeakMode_php
 
 ---
 
-## 👨‍💻 Authors
+##  Authors
 
 **Student 1:**
 Name:D.S.M.D.B.Subasingha
@@ -108,14 +108,14 @@ Registration Number: ICT/2023/133
 
 ---
 
-## ⭐ Acknowledgment
+##  Acknowledgment
 
 Developed as part of coursework at
 **Rajarata University of Sri Lanka – Department of Computing**
 
 ---
 
-## 📌 Future Improvements
+##  Future Improvements
 
 * Connect with backend API
 * Improve animations
